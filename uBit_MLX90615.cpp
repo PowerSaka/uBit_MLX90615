@@ -51,7 +51,7 @@ extern MicroBit uBit;
 */
 enum TemperatureLocation {
     Object,
-    Ambiant
+    Ambient
 };
 
 /**
@@ -66,7 +66,7 @@ namespace mlx90615 {
     int temperature(TemperatureLocation loc) {
         uBit_MLX90615 sensor(&uBit.i2c);
         switch(loc) {
-            case TemperatureLocation::Ambiant:
+            case TemperatureLocation::Ambient:
                 return sensor.getAmbient();
             default:
                 return sensor.getObject();
