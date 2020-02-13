@@ -1,17 +1,5 @@
-// Auto-generated. Do not edit.
-
-
-    /**
-     * Functions to support the MLX90615 sensor
-     */
-    //%
-declare namespace mlx90615 {
-
-    /**
-     * Reads the temperature from the IR sensor MLX90615
-     */
+//% color=#2159b2 icon="\uf2c9" block="MLX90615"
+namespace mlx90615 {
     //% blockId=mlx90615 block="temperature %loc" shim=mlx90615::temperature
-    function temperature(loc: TemperatureLocation): number;
+    export function temperature(loc: TemperatureLocation): number;
 }
-
-// Auto-generated. Do not edit. Really.
