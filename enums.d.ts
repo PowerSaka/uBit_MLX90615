@@ -7,7 +7,7 @@
 
     declare enum TemperatureLocation {
     Object = 0,
-    Ambiant = 1,
+    Ambient = 1,
     }
 declare namespace mlx90615 {
 }
